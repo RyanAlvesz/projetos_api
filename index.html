@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/img/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/root.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/project.css">
+    <script src="./assets/js/projects.js" defer></script>
+    <title>Projetos - API's</title>
+</head>
+<body>
+    <header>
+        <h1>Projetos API - PWFE</h1>
+        <div class="input">
+            <div class="select">
+                <select name="filter-options" id="filter-options">
+                    <option value="ds1">Todos</option>
+                    <option value="ds1ait">DS1AIT</option>
+                    <option value="ds1bit">DS1BIT</option>
+                    <option value="ds1ait-a">DS1AIT-A</option>
+                    <option value="ds1ait-b">DS1AIT-B</option>
+                    <option value="ds1bit-a">DS1BIT-A</option>
+                    <option value="ds1bit-b">DS1BIT-B</option>
+                </select>
+            </div>
+            <input type="text" name="search-input" id="input" placeholder="Digite o nome do projeto ou aluno...">
+            <button id="search-button">
+                <img src="./assets/img/search.svg" alt="Lupa">
+            </button>
+        </div>
+        <div></div>
+    </header>
+    <main>
+        <section class="projects-section" id="projects-section">
+              <!-- Projetos inseridos através do javascript -->
+        </section>
+    </main>
+</body>
+</html>

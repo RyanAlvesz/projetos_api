@@ -1,0 +1,28 @@
+:root{
+    --purple: #361E56;
+    --lavender: #6141A6;
+    --dark-lavender: #573A95;
+    --orange: #F6A965;
+    --gray: #707070;
+    --light-gray: #E0E0E0;
+    --bg-color: #E0E0E0;
+    --main-font: 'Poppins';
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    cursor: pointer;
+    background-color: inherit;
+    border: none;
+}
+
+input, input:focus, select, select:focus, option{
+    box-shadow: 0 0 0 0;
+    border: none;
+    outline: 0;
+} 

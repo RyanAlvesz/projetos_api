@@ -1,0 +1,20 @@
+body{
+    display: grid;
+    grid-template-rows: auto 1fr;
+    font-family: var(--main-font);
+    min-height: 100vh;
+    background-color: var(--bg-color);
+}
+
+main{
+    display: flex;
+    padding: 50px;
+}
+
+.projects-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px 24px;
+    justify-content: center;
+    width: 100%;
+}
