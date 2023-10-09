@@ -34,6 +34,7 @@ header .input{
 .input .select{
     padding-inline: 8px;
     background-color: var(--light-gray);
+    cursor: pointer;
 }
 
 .input select{
