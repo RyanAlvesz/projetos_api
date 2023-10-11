@@ -38,17 +38,20 @@
 .info h2{
     font-size: 1.8rem;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .info .student-info{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    font-size: 1.5rem;
+    font-size: 1.5rem;    
+    align-items: center;
 }
 
 .name{
     text-transform: capitalize;
+    max-width: 60%;
 }
 
 .class{
