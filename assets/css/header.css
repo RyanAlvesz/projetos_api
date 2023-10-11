@@ -36,7 +36,7 @@ header .input{
     background-color: var(--light-gray);
 }
 
-.select *{
+.select, .select *{
     cursor: pointer;
 }
 
