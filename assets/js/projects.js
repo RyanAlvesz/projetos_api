@@ -179,6 +179,9 @@ const createProjectCard = (project) => {
         const projectTitle = document.createElement('h2')
         projectTitle.classList.add('project-title')
         projectTitle.textContent = project.project_name
+
+        const studentInfo = document.createElement('div')
+        studentInfo.classList.add('student-info')
         
         const studentName = document.createElement('span')
         studentName.classList.add('name')
@@ -213,7 +216,8 @@ const createProjectCard = (project) => {
         siteImage.alt = 'Desenho do planeta terra composto de linhas laranjas'
 
         projectContainer.replaceChildren(projectInfo, buttons)
-        projectInfo.replaceChildren(projectTitle, studentName, studentClass)
+        projectInfo.replaceChildren(projectTitle, studentInfo)
+        studentInfo.replaceChildren(studentName, studentClass)
         buttons.replaceChildren(figmaButton, gitButton, siteButton)
         figmaButton.appendChild(figmaLink)
         figmaLink.appendChild(figmaImage)

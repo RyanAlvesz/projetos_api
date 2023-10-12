@@ -23,16 +23,18 @@
     flex-direction: column;
     gap: 6px;
     color: var(--orange);
-    position: relative;
-    width: 100%;
     height: 200px;
     justify-content: center;
+    text-align: center;
 }
 
 .info h2{
     font-size: 1.8rem;
     text-transform: capitalize;
-    text-align: center;
+}
+
+.student-info{
+    position: relative;
 }
 
 .name{
@@ -47,8 +49,13 @@
 }
 
 .class{
+    display: block;
     position: absolute;
     bottom: calc(-1.4rem + (-4px) + (-1.2rem));
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: fit-content;
     background-color: var(--lavender);
     color: #fff;
     padding: 4px 8px;
