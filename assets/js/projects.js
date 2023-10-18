@@ -16,6 +16,15 @@ let project = [
         github: 'https://github.com/RyanAlvesz/harry_potter',
         site: 'https://ryanalvesz.github.io/harry_potter/'
     },
+    {  
+        student: 'Ana Luiza A. Morais',
+        class: 'ds1ait-b',
+        project_name: 'Minion Translate',
+        project_image: 'https://user-images.githubusercontent.com/123708215/276296128-8e91e9e8-5997-430a-94a0-f6518ad68a9d.png',
+        figma: 'https://www.figma.com/file/Tj4GQCKUyr2B88UHl8SeTP/Untitled?type=design&node-id=0-1&mode=design&t=Yiy3r4D8MdBrlAwr-0',
+        github: 'https://github.com/analu-a/Projeto-API',
+        site: 'https://analu-a.github.io/Projeto-API/'
+    },
     {
         student: 'Bianca Maria Soares',
         class: 'ds1ait-a',
@@ -29,7 +38,7 @@ let project = [
         student: 'Eduardo Gonçalves de Oliveira',
         class: 'ds1ait-b',
         project_name: 'Gaana: MusicalSearcher',
-        project_image: undefined,
+        project_image: 'https://github.com/EduardoGoncalvesdeOliveira/AtividadeConsumoDeAPI_GAANAMusic/blob/main/img/Logo%20Gaana.PNG?raw=true',
         figma: 'https://www.figma.com/file/LUYkhQgktrykJtb8fB1TKd/GaanaAPI?type=design&node-id=3%3A4&mode=design&t=MdRwKVRMlj2a7vle-1',
         github: 'https://github.com/EduardoGoncalvesdeOliveira/AtividadeConsumoDeAPI_GAANAMusic',
         site: 'https://eduardogoncalvesdeoliveira.github.io/AtividadeConsumoDeAPI_GAANAMusic/'
@@ -53,6 +62,15 @@ let project = [
         site: 'https://gabfernandes8.github.io/marvel_api/'
     },
     {
+        student: 'Giovana Vieira',
+        class: 'ds1ait-b',
+        project_name: 'FATOS ',
+        project_image: undefined,
+        figma: 'https://www.figma.com/file/dAJaEiMC3bFRIe7zhJGbXw/Untitled?type=design&node-id=0-1&mode=design&t=qHGH60ASTfdqONLD-0',
+        github: '#',
+        site: '#'
+    },
+    {
         student: 'Gustavo Henrique',
         class: 'ds1ait-a',
         project_name: 'Star Wars API',
@@ -69,6 +87,15 @@ let project = [
         figma: 'https://www.figma.com/file/PZ0m1tMn4G0LedMZWI9Kxa/RickAndMortyAPI?type=design&node-id=0-1&mode=design&t=XVaMnj3UpjMVMovd-0',
         github: 'https://github.com/IgorAraujooo/RickAndMorty-API',
         site: 'https://igoraraujooo.github.io/RickAndMorty-API/'
+    },
+    {
+        student: 'Jessica Pereira dos Santos',
+        class: 'ds1ait-b',
+        project_name: 'Listar-Pokémon',
+        project_image: 'https://user-images.githubusercontent.com/124156735/276305025-45f0af28-0ffd-4e79-a019-7f8d7bc1c161.png',
+        figma: 'https://www.figma.com/file/gNbPtN3rAdYEx9ktNPv6QQ/Untitled?type=design&node-id=0-1&mode=design&t=VRXP3vCKGoWSCO06-0',
+        github: 'https://github.com/jeca16/projetoAPI-listarPokemon',
+        site: 'https://jeca16.github.io/projetoAPI-listarPokemon/'
     },
     {
         student: 'Julia Fonseca',
@@ -134,6 +161,15 @@ let project = [
         site: 'https://mat3uss.github.io/api-anime/'
     },
     {
+        student: 'Natália Bastazini',
+        class: 'ds1ait-b',
+        project_name: 'Bastazini Music',
+        project_image: 'https://github.com/natybastazini/bastaziniMusic/assets/123602413/65cc7d10-26bf-47f5-9a09-a17678753fb0',
+        figma: 'https://www.figma.com/file/zibI4zwJXIwmcUQBvBBiuJ/Untitled?type=design&node-id=0-1&mode=design&t=TUvBp8Z69lLakGFK-0',
+        github: 'https://github.com/natybastazini/bastaziniMusic',
+        site: 'https://natybastazini.github.io/bastaziniMusic/'
+    },
+    {
 	    student: 'Pedro Barbosa',
         class: 'ds1ait-b',
         project_name: 'Pokemon API',
@@ -173,7 +209,7 @@ let project = [
         student: 'Vitoria Azevedo',
         class: 'ds1ait-b',
         project_name: 'Bíblia Sagrada',
-        project_image: 'https://github.com/hanabin28/Biblia_Sagrada/assets/124360742/5d0ba649-03fc-4b82-9fa7-d455b6c694b3',
+        project_image: 'https://github-production-user-asset-6210df.s3.amazonaws.com/124360742/276304210-66204685-42b1-4f8e-bdc8-308c157eb72a.png',
         figma: 'https://www.figma.com/file/kIHJAotyykfIgrDhtoFEqs/B%C3%ADblia_Sagrada?type=design&node-id=0-1&mode=design&t=g03sHh4kMQyPsQQ2-0',
         github: 'https://github.com/hanabin28/Biblia_Sagrada',
         site: '#'
@@ -182,7 +218,7 @@ let project = [
         student: 'Yasmin Targino',
         class: 'ds1ait-b',
         project_name: 'Fatos sobre cachorros',
-        project_image: undefined,
+        project_image: 'https://blog.polipet.com.br/wp-content/uploads/2022/08/AdobeStock_100800827-scaled.jpeg',
         figma: 'https://www.figma.com/file/prxfLRiiOfoNT6oWWYm7nt/Projeto-fatos-sobre-c%C3%A3es?type=design&node-id=0%3A1&mode=design&t=rkKt5XSbwV2U9Kgc-1',
         github: 'https://github.com/Emy0622/atividade_site',
         site: 'https://emy0622.github.io/atividade_site/'

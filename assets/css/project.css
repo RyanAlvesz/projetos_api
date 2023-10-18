@@ -82,6 +82,7 @@
     background-color: var(--lavender);
     border-radius: 12px;
     transition: 0.5s;
+    z-index: 8888;
 }
 
 .buttons button:hover{
