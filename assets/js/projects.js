@@ -11,6 +11,7 @@ let project = [
         student: 'Ryan Alves',
         class: 'ds1ait-b',
         project_name: 'Harry Potter Wiki',
+        project_image: 'https://github.com/RyanAlvesz/harry_potter/raw/main/img/hp_wiki.png',
         figma: 'https://www.figma.com/file/lfhuuXMmv9WVn4yyYs4Uor/Harry-Potter?type=design&node-id=0%3A1&mode=design&t=nPPzwnHYPWPXps39-1',
         github: 'https://github.com/RyanAlvesz/harry_potter',
         site: 'https://ryanalvesz.github.io/harry_potter/'
@@ -170,7 +171,64 @@ const createProjectCard = (project) => {
     
     project.map((project) => {
 
-        const projectContainer = document.createElement('div')
+        let projectContainer
+
+        if(project.project_image != undefined){
+            
+            projectContainer = document.createElement('button')
+            
+            projectContainer.addEventListener('click', () =>{
+                
+                let projects = document.getElementsByClassName('project-container')
+
+                for (let project of projects){
+                    project.classList.add('point-event')
+                }
+                
+                const moreInfo = document.createElement('div')
+                moreInfo.classList.add('more-info')
+
+                const closeButton = document.createElement('button')
+                closeButton.classList.add('close-button')
+                
+                const closeButtonImg = document.createElement('img')
+                closeButtonImg.src = './assets/img/close-icon.svg'
+
+                closeButton.addEventListener('click', () => {
+
+                    moreInfo.parentNode.removeChild(moreInfo)
+                    for (let project of projects){
+                        project.classList.remove('point-event')
+                    }
+
+                })
+                
+                const projectImage = document.createElement('div')
+                projectImage.classList.add('project-img')
+                projectImage.style.backgroundImage = `url(${project.project_image})`
+
+                const info = document.createElement('div')
+                info.classList.add('student-info')
+
+                const name = document.createElement('span')
+                name.textContent = project.student
+
+                const studentClass = document.createElement('span')
+                studentClass.textContent = project.class
+
+                moreInfo.replaceChildren(closeButton, projectImage, info)
+                closeButton.appendChild(closeButtonImg)
+                info.replaceChildren(name, studentClass)
+                projectsSection.appendChild(moreInfo)
+                
+            })
+            
+        }else if (project.project_image == undefined){
+
+            projectContainer = document.createElement('div')
+
+        }
+
         projectContainer.classList.add('project-container')
         
         const projectInfo = document.createElement('div')
@@ -197,6 +255,7 @@ const createProjectCard = (project) => {
         const figmaButton = document.createElement('button')
         const figmaLink = document.createElement('a')
         figmaLink.href = project.figma
+        figmaLink.target = '_blank'
         const figmaImage = document.createElement('img')
         figmaImage.src = './assets/img/figma.svg'
         figmaImage.alt = 'Logo Figma'
@@ -204,6 +263,7 @@ const createProjectCard = (project) => {
         const gitButton = document.createElement('button')
         const gitLink = document.createElement('a')
         gitLink.href = project.github
+        gitLink.target = '_blank'
         const gitHubImage = document.createElement('img')
         gitHubImage.src = './assets/img/github.svg'
         gitHubImage.alt = 'Logo GitHub'
@@ -211,6 +271,7 @@ const createProjectCard = (project) => {
         const siteButton = document.createElement('button')
         const siteLink = document.createElement('a')
         siteLink.href = project.site
+        siteLink.target = '_blank'
         const siteImage = document.createElement('img')
         siteImage.src = './assets/img/web.svg'
         siteImage.alt = 'Desenho do planeta terra composto de linhas laranjas'
