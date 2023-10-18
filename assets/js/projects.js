@@ -35,6 +35,15 @@ let project = [
         site: '#',
     },
     {
+        student: 'Carolina Neponucena',
+        class: 'ds1ait-a',
+        project_name: 'FruitVyce',
+        project_image: 'https://www.fruityvice.com/images/cherry.png',
+        figma: 'https://www.figma.com/file/3RPQ0bHxMxqDoxOvMgAym1/Untitled?type=design&node-id=0-1&mode=design&t=lqjFBlBb0kaaiHFU-0',
+        github: 'https://github.com/carolneponucenaa/fruityVice2',
+        site: 'https://carolneponucenaa.github.io/fruityVice2/'
+    },
+    {
         student: 'Eduardo Gonçalves de Oliveira',
         class: 'ds1ait-b',
         project_name: 'Gaana: MusicalSearcher',
@@ -56,7 +65,7 @@ let project = [
         student: 'Gabriela Fernandes',
         class: 'ds1ait-b',
         project_name: 'Marvel Characters & Comics',
-        project_image: 'https://user-images.githubusercontent.com/124157058/276234456-f7ab4022-897a-45bb-817d-4f42a84b3d97.png',
+        project_image: 'https://user-images.githubusercontent.com/124157058/276347589-37651b7d-ca56-4ea6-8112-dc285e6e66dd.png',
         figma: 'https://www.figma.com/file/rygsayOYqoFatqlNt2rqYP/marvel-api?type=design&node-id=0%3A1&mode=design&t=XgP7q3AcKphImgHH-1',
         github: 'https://github.com/gabfernandes8/marvel_api',
         site: 'https://gabfernandes8.github.io/marvel_api/'
@@ -71,10 +80,19 @@ let project = [
         site: '#'
     },
     {
+        student: 'Guilherme Abel',
+        class: 'ds1ait-a',
+        project_name: 'Riot Games API',
+        project_image: undefined,
+        figma: 'https://www.figma.com/file/EKdJX0sIPh8ihCvPOafPC5/Riot-Games?type=design&node-id=0-1&mode=design&t=snBRnazV3esO5jDp-0',
+        github: 'https://github.com/GuiguiEM/API-Riot',
+        site: 'https://guiguiem.github.io/API-Riot/'
+    },
+    {
         student: 'Gustavo Henrique',
         class: 'ds1ait-a',
         project_name: 'Star Wars API',
-        project_image: undefined,
+        project_image: 'https://user-images.githubusercontent.com/123705623/275350875-e8115e0e-78b5-43c9-af87-a8e547a3bb1d.png',
         figma: 'https://www.figma.com/file/iMfogPphHXsiBqOsrA2vvT/star-wars?type=design&node-id=0-1&mode=design&t=61HgDfC671eoTIYi-0',
         github: 'https://github.com/oghenrique/star-wars-API',
         site: 'https://oghenrique.github.io/star-wars-API/'
@@ -143,6 +161,15 @@ let project = [
         site: 'https://luizhva02.github.io/P-W-F-E/projetos-Front-End/atividade-SAS/index.html'
     },
     {
+        student: 'Maria Luiza Costa Balieiro',
+        class: 'ds1ait-a',
+        project_name: 'taylorsfy',
+        project_image: undefined,
+        figma: 'https://www.figma.com/file/xo1R0xtQesApLLRqkqVYhd/Untitled?type=design&node-id=0-1&mode=design&t=PINuvpWMAfnLmkIC-0',
+        github: 'https://github.com/MariaLuizaBalieiro/taylorsfy',
+        site: 'https://marialuizabalieiro.github.io/taylorsfy/'
+    },
+    {
         student: 'Mariana Alves',
         class: 'ds1ait-b',
         project_name: 'Movies Archive',
@@ -168,6 +195,24 @@ let project = [
         figma: 'https://www.figma.com/file/zibI4zwJXIwmcUQBvBBiuJ/Untitled?type=design&node-id=0-1&mode=design&t=TUvBp8Z69lLakGFK-0',
         github: 'https://github.com/natybastazini/bastaziniMusic',
         site: 'https://natybastazini.github.io/bastaziniMusic/'
+    },
+    {
+        student: 'Nicolas Vasconcelos Petri',
+        class: 'ds1ait-a',
+        project_name: 'ViaMaps',
+        project_image: undefined,
+        figma: 'https://www.figma.com/file/rcjmGwdSWvJyaRbQ7U2svn/Untitled?type=design&node-id=0%3A1&mode=design&t=UhjkWGrcBJOHPiPS-1',
+        github: 'https://github.com/nvpetri/ViaMaps',
+        site: 'https://nvpetri.github.io/ViaMaps/',
+    },
+    {
+        student: 'Nycolle Lima',
+        class: 'ds1ait-a',
+        project_name: 'Zoo Park',
+        project_image: 'https://github.com/NycolleL/zoo/blob/main/capa.png?raw=true',
+        figma: 'https://www.figma.com/file/9sN4aeqzaky7WExHmp1tci/Zoo?type=design&node-id=0-1&mode=design&t=K9kfAMz0GzeT7JPt-0',
+        github: 'https://github.com/NycolleL/zoo',
+        site: 'https://nycollel.github.io/zoo/'
     },
     {
 	    student: 'Pedro Barbosa',
@@ -240,52 +285,57 @@ const createProjectCard = (project) => {
             
             projectContainer = document.createElement('button')
             
-            projectContainer.addEventListener('click', () =>{
+            projectContainer.addEventListener('click', (e) =>{
+
+                if(e.target.tagName != 'A'){
+
                 
-                let projects = document.getElementsByClassName('project-container')
+                    let projects = document.getElementsByClassName('project-container')
 
-                for (let project of projects){
-                    project.classList.add('point-event')
-                }
-                
-                const moreInfo = document.createElement('div')
-                moreInfo.classList.add('more-info')
-
-                const closeButton = document.createElement('button')
-                closeButton.classList.add('close-button')
-                
-                const closeButtonImg = document.createElement('img')
-                closeButtonImg.src = './assets/img/close-icon.svg'
-
-                closeButton.addEventListener('click', () => {
-
-                    moreInfo.parentNode.removeChild(moreInfo)
                     for (let project of projects){
-                        project.classList.remove('point-event')
+                        project.classList.add('point-event')
                     }
+                    
+                    const moreInfo = document.createElement('div')
+                    moreInfo.classList.add('more-info')
 
-                })
-                
-                const projectImage = document.createElement('a')
-                projectImage.classList.add('project-img')
-                projectImage.href = project.site
-                projectImage.target = '_blank'
-                projectImage.style.backgroundImage = `url(${project.project_image})`
+                    const closeButton = document.createElement('button')
+                    closeButton.classList.add('close-button')
+                    
+                    const closeButtonImg = document.createElement('img')
+                    closeButtonImg.src = './assets/img/close-icon.svg'
 
-                const info = document.createElement('div')
-                info.classList.add('student-info')
+                    closeButton.addEventListener('click', () => {
 
-                const name = document.createElement('span')
-                name.textContent = project.student
+                        moreInfo.parentNode.removeChild(moreInfo)
+                        for (let project of projects){
+                            project.classList.remove('point-event')
+                        }
 
-                const studentClass = document.createElement('span')
-                studentClass.textContent = project.class
+                    })
+                    
+                    const projectImage = document.createElement('a')
+                    projectImage.classList.add('project-img')
+                    projectImage.href = project.site
+                    projectImage.target = '_blank'
+                    projectImage.style.backgroundImage = `url(${project.project_image})`
 
-                moreInfo.replaceChildren(closeButton, projectImage, info)
-                closeButton.appendChild(closeButtonImg)
-                info.replaceChildren(name, studentClass)
-                projectsSection.appendChild(moreInfo)
-                
+                    const info = document.createElement('div')
+                    info.classList.add('student-info')
+
+                    const name = document.createElement('span')
+                    name.textContent = project.student
+
+                    const studentClass = document.createElement('span')
+                    studentClass.textContent = project.class
+
+                    moreInfo.replaceChildren(closeButton, projectImage, info)
+                    closeButton.appendChild(closeButtonImg)
+                    info.replaceChildren(name, studentClass)
+                    projectsSection.appendChild(moreInfo)
+                    
+                }
+
             })
             
         }else if (project.project_image == undefined){
