@@ -203,8 +203,10 @@ const createProjectCard = (project) => {
 
                 })
                 
-                const projectImage = document.createElement('div')
+                const projectImage = document.createElement('a')
                 projectImage.classList.add('project-img')
+                projectImage.href = project.site
+                projectImage.target = '_blank'
                 projectImage.style.backgroundImage = `url(${project.project_image})`
 
                 const info = document.createElement('div')
