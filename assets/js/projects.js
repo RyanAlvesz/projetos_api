@@ -38,6 +38,16 @@ let project = [
         concluido: false
     },
     {
+        student: 'Cauã da Silva',
+        class: 'ds1bit-b',
+        project_name: 'Pokédex?',
+        project_image: 'https://github.com/Caua90210/Site-API/blob/main/desktop.jpg?raw=true',
+        figma: 'https://www.figma.com/file/2oAqBQyAEs54pCM9uPizXG/Untitled?type=design&node-id=0-1&mode=design&t=NevGhgaF0X3blOCI-0',
+        github: 'https://github.com/Caua90210/Site-API',
+        site: 'https://caua90210.github.io/Site-API/index.html',
+        concluido: false
+    },
+    {
         student: 'Eduardo Gonçalves de Oliveira',
         class: 'ds1ait-b',
         project_name: 'Gaana: MusicalSearcher',
@@ -88,6 +98,16 @@ let project = [
         concluido: false
     },
     {
+        student: 'Gustavo Campos',
+        class: 'ds1bit-b',
+        project_name: 'Quem disse essa frase?',
+        project_image: 'https://github.com/caaaampos444/projeto_api/blob/main/desktop.PNG?raw=true',
+        figma: 'https://www.figma.com/file/T1CkRhVrCWL8HA4SyCmC2e/Site-Quiz?type=design&node-id=0-1&mode=design&t=h4QcF34LROadNqhl-0',
+        github: 'https://github.com/caaaampos444/projeto_api',
+        site: 'https://caaaampos444.github.io/projeto_api/',
+        concluido: true
+    },
+    {
         student: 'Gustavo Henrique',
         class: 'ds1ait-a',
         project_name: 'Star Wars API',
@@ -136,6 +156,16 @@ let project = [
         github: 'https://github.com/Paivaas/StudioGhibli',
         site: 'https://paivaas.github.io/StudioGhibli/',
         concluido: true
+    },
+    {
+        student: 'Kainan Braga',
+        class: 'ds1ait-a',
+        project_name: '4Seasons',
+        project_image: undefined,
+        figma: 'https://www.figma.com/file/RksUQmefCFAB8rh6QyQVeo/Untitled?type=design&node-id=19-18&mode=design&t=W7pX08phZZjOevRr-0',
+        github: 'https://github.com/lucikaii/4seasons',
+        site: 'https://lucikaii.github.io/4seasons/',
+        concluido: false
     },
     {
         student: 'Luan Oliveira',
@@ -208,6 +238,16 @@ let project = [
         concluido: false
     },
     {
+        student: 'Nathalia Ventura',
+        class: 'ds1bit-b',
+        project_name: 'Harry Potter Infos',
+        project_image: undefined,
+        figma: 'https://www.figma.com/file/mUQarZ5IISisJoEh3FPOvz/Harry-Potter-API?type=design&node-id=2-3&mode=design&t=WaEOiXmLf3HdxWo3-0',
+        github: 'https://github.com/vkawaka/HarryPotter.git',
+        site: 'https://vkawaka.github.io/HarryPotter/',
+        concluido: false
+    },
+    {
         student: 'Nicolas Vasconcelos Petri',
         class: 'ds1ait-a',
         project_name: 'ViaMaps',
@@ -248,6 +288,16 @@ let project = [
         concluido: false
     },
     {
+        student: 'Ricardo Borges do Amaral',
+        class: 'ds1bit-b',
+        project_name: 'VEIO PORQUE QUIZ',
+        project_image: 'https://github.com/Ricardo-borges1/quiz-pwfe/blob/main/print-quizpwfe.PNG?raw=true',
+        figma: 'https://www.figma.com/file/W7dA3TaqprPYpuWznrtF5B/Untitled?type=design&node-id=28-2&mode=design&t=H3STlfF2ORcY1waC-0',
+        github: 'https://github.com/Ricardo-borges1/quiz-pwfe',
+        site: 'https://ricardo-borges1.github.io/quiz-pwfe/',
+        concluido: false
+    },
+    {
         student: 'Ruan Calsolari',
         class: 'ds1ait-b',
         project_name: 'Marvel Characters & Comics',
@@ -268,6 +318,16 @@ let project = [
         concluido: true
     },
     {
+        student: 'Suzane Arcanjo',
+        class: 'ds1bit-b',
+        project_name: 'Suas receitas.',
+        project_image: undefined,
+        figma: 'https://www.figma.com/file/FFx6S23mxZOYtmBr3npkSs/Untitled?type=design&node-id=0-1&mode=design&t=skXPgE2bdpfyaNgm-0',
+        github: 'https://github.com/ssuzane/API_receitas',
+        site: 'https://ssuzane.github.io/API_receitas/',
+        concluido: false
+    },
+    {
         student: 'Tamires Fernandes',
         class: 'ds1ait-a',
         project_name: "Ghibli's Gallery",
@@ -275,6 +335,16 @@ let project = [
         figma: 'https://www.figma.com/file/qUInLCadFqj58v4oKwKKtx/Untitled?type=design&node-id=0%3A1&mode=design&t=GiBlRSXGCUVtxebE-1',
         github: 'https://github.com/oRdv/api-studioGhibli.git',
         site: 'https://ordv.github.io/api-studioGhibli/',
+        concluido: false
+    },
+    {
+        student: 'Vitor Kolle',
+        class: 'ds1bit-b',
+        project_name: 'AstroBrasil',
+        project_image: 'https://github.com/vitorkolle/api-nasa/assets/123905283/eadf68be-22cf-4fd5-8c7f-a49ffd7b9be9',
+        figma: 'https://www.figma.com/file/KmXpyPRHSKOKjXes9msMYK/tela-api?type=design&node-id=0-1&mode=design&t=1kiHiK4g9wJWINlm-0',
+        github: 'https://github.com/vitorkolle/api-nasa',
+        site: 'https://vitorkolle.github.io/api-nasa/',
         concluido: false
     },
     {
