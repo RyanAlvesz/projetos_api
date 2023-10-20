@@ -461,13 +461,27 @@ select.addEventListener('change', () => {
 
     filterOption = select.value
 
-    const filteredProject = project.filter((project) => {
-        return (
-            project.class.toLocaleLowerCase().includes(filterOption)
-            );
-        });
+    if(filterOption == 'true'){
 
-    createProjectCard(filteredProject)   
+        const filteredProject = project.filter((project) => {
+            return (
+                project.concluido == Boolean(filterOption) 
+                )
+            })
+
+            createProjectCard(filteredProject)   
+
+    } else {
+
+        const filteredProject = project.filter((project) => {
+            return (
+                project.class.toLocaleLowerCase().includes(filterOption)
+                )
+            })
+    
+        createProjectCard(filteredProject)   
+
+    }
 
 })
 
