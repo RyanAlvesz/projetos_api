@@ -7,15 +7,6 @@ let filterOption = 'ds1'
 
 let project = [
     
-    {
-        student: 'Ryan Alves',
-        class: 'ds1ait-b',
-        project_name: 'Harry Potter Wiki',
-        project_image: 'https://github.com/RyanAlvesz/harry_potter/raw/main/img/hp_wiki.png',
-        figma: 'https://www.figma.com/file/lfhuuXMmv9WVn4yyYs4Uor/Harry-Potter?type=design&node-id=0%3A1&mode=design&t=nPPzwnHYPWPXps39-1',
-        github: 'https://github.com/RyanAlvesz/harry_potter',
-        site: 'https://ryanalvesz.github.io/harry_potter/'
-    },
     {  
         student: 'Ana Luiza A. Morais',
         class: 'ds1ait-b',
@@ -23,7 +14,8 @@ let project = [
         project_image: 'https://user-images.githubusercontent.com/123708215/276296128-8e91e9e8-5997-430a-94a0-f6518ad68a9d.png',
         figma: 'https://www.figma.com/file/Tj4GQCKUyr2B88UHl8SeTP/Untitled?type=design&node-id=0-1&mode=design&t=Yiy3r4D8MdBrlAwr-0',
         github: 'https://github.com/analu-a/Projeto-API',
-        site: 'https://analu-a.github.io/Projeto-API/'
+        site: 'https://analu-a.github.io/Projeto-API/',
+        concluido: false
     },
     {
         student: 'Bianca Maria Soares',
@@ -33,6 +25,7 @@ let project = [
         figma: 'https://www.figma.com/file/4mSaMvDeGHFJJlm6ZpMQyO/makeup-world?type=design&node-id=5-23&mode=design&t=AlInItsPvCBUBZEb-0',
         github: 'https://github.com/biancaasoares/makeupWorld',
         site: '#',
+        concluido: false
     },
     {
         student: 'Carolina Neponucena',
@@ -41,7 +34,8 @@ let project = [
         project_image: 'https://www.fruityvice.com/images/cherry.png',
         figma: 'https://www.figma.com/file/3RPQ0bHxMxqDoxOvMgAym1/Untitled?type=design&node-id=0-1&mode=design&t=lqjFBlBb0kaaiHFU-0',
         github: 'https://github.com/carolneponucenaa/fruityVice2',
-        site: 'https://carolneponucenaa.github.io/fruityVice2/'
+        site: 'https://carolneponucenaa.github.io/fruityVice2/',
+        concluido: false
     },
     {
         student: 'Eduardo Gonçalves de Oliveira',
@@ -50,7 +44,8 @@ let project = [
         project_image: 'https://github.com/EduardoGoncalvesdeOliveira/AtividadeConsumoDeAPI_GAANAMusic/blob/main/img/Logo%20Gaana.PNG?raw=true',
         figma: 'https://www.figma.com/file/LUYkhQgktrykJtb8fB1TKd/GaanaAPI?type=design&node-id=3%3A4&mode=design&t=MdRwKVRMlj2a7vle-1',
         github: 'https://github.com/EduardoGoncalvesdeOliveira/AtividadeConsumoDeAPI_GAANAMusic',
-        site: 'https://eduardogoncalvesdeoliveira.github.io/AtividadeConsumoDeAPI_GAANAMusic/'
+        site: 'https://eduardogoncalvesdeoliveira.github.io/AtividadeConsumoDeAPI_GAANAMusic/',
+        concluido: false
     },
     {
         student: 'Emily Crepaldi',
@@ -59,7 +54,8 @@ let project = [
         project_image: 'https://github.com/h4nniton/tumblr-api/blob/main/IMG/capa.png?raw=true',
         figma: 'https://www.figma.com/file/LvEfYBd4aOrbtUJRlaQvdZ/Tumblr-Cat?type=design&mode=design&t=kL7x9zOmAZ9mQaDy-0',
         github: 'https://github.com/h4nniton/tumblr-api',
-        site: 'https://h4nniton.github.io/tumblr-api/'
+        site: 'https://h4nniton.github.io/tumblr-api/',
+        concluido: false
     },
     {
         student: 'Gabriela Fernandes',
@@ -68,7 +64,8 @@ let project = [
         project_image: 'https://user-images.githubusercontent.com/124157058/276347589-37651b7d-ca56-4ea6-8112-dc285e6e66dd.png',
         figma: 'https://www.figma.com/file/rygsayOYqoFatqlNt2rqYP/marvel-api?type=design&node-id=0%3A1&mode=design&t=XgP7q3AcKphImgHH-1',
         github: 'https://github.com/gabfernandes8/marvel_api',
-        site: 'https://gabfernandes8.github.io/marvel_api/'
+        site: 'https://gabfernandes8.github.io/marvel_api/',
+        concluido: true
     },
     {
         student: 'Giovana Vieira',
@@ -77,7 +74,8 @@ let project = [
         project_image: undefined,
         figma: 'https://www.figma.com/file/dAJaEiMC3bFRIe7zhJGbXw/Untitled?type=design&node-id=0-1&mode=design&t=qHGH60ASTfdqONLD-0',
         github: '#',
-        site: '#'
+        site: '#',
+        concluido: false
     },
     {
         student: 'Guilherme Abel',
@@ -86,7 +84,8 @@ let project = [
         project_image: undefined,
         figma: 'https://www.figma.com/file/EKdJX0sIPh8ihCvPOafPC5/Riot-Games?type=design&node-id=0-1&mode=design&t=snBRnazV3esO5jDp-0',
         github: 'https://github.com/GuiguiEM/API-Riot',
-        site: 'https://guiguiem.github.io/API-Riot/'
+        site: 'https://guiguiem.github.io/API-Riot/',
+        concluido: false
     },
     {
         student: 'Gustavo Henrique',
@@ -95,7 +94,8 @@ let project = [
         project_image: 'https://user-images.githubusercontent.com/123705623/275350875-e8115e0e-78b5-43c9-af87-a8e547a3bb1d.png',
         figma: 'https://www.figma.com/file/iMfogPphHXsiBqOsrA2vvT/star-wars?type=design&node-id=0-1&mode=design&t=61HgDfC671eoTIYi-0',
         github: 'https://github.com/oghenrique/star-wars-API',
-        site: 'https://oghenrique.github.io/star-wars-API/'
+        site: 'https://oghenrique.github.io/star-wars-API/',
+        concluido: false
     },
     {
         student: 'Igor Araujo',
@@ -104,7 +104,8 @@ let project = [
         project_image: 'https://user-images.githubusercontent.com/123735950/274325429-fee5977a-43d4-4c18-bcac-460ce31fa7e9.PNG',
         figma: 'https://www.figma.com/file/PZ0m1tMn4G0LedMZWI9Kxa/RickAndMortyAPI?type=design&node-id=0-1&mode=design&t=XVaMnj3UpjMVMovd-0',
         github: 'https://github.com/IgorAraujooo/RickAndMorty-API',
-        site: 'https://igoraraujooo.github.io/RickAndMorty-API/'
+        site: 'https://igoraraujooo.github.io/RickAndMorty-API/',
+        concluido: false
     },
     {
         student: 'Jessica Pereira dos Santos',
@@ -113,7 +114,8 @@ let project = [
         project_image: 'https://user-images.githubusercontent.com/124156735/276305025-45f0af28-0ffd-4e79-a019-7f8d7bc1c161.png',
         figma: 'https://www.figma.com/file/gNbPtN3rAdYEx9ktNPv6QQ/Untitled?type=design&node-id=0-1&mode=design&t=VRXP3vCKGoWSCO06-0',
         github: 'https://github.com/jeca16/projetoAPI-listarPokemon',
-        site: 'https://jeca16.github.io/projetoAPI-listarPokemon/'
+        site: 'https://jeca16.github.io/projetoAPI-listarPokemon/',
+        concluido: false
     },
     {
         student: 'Julia Fonseca',
@@ -122,7 +124,8 @@ let project = [
         project_image: undefined,
         figma: 'https://www.figma.com/file/rY7RQtDz4qQNoHvaHN1bsw/Untitled?type=design&node-id=0-1&mode=design&t=BixZIL5XhrRFKN17-0',
         github: 'https://github.com/Fjuliaaz/API',
-        site: '#'
+        site: '#',
+        concluido: false
     },
     {
         student: 'Julia Paiva',
@@ -131,7 +134,8 @@ let project = [
         project_image: 'https://github.com/Paivaas/StudioGhibli/blob/main/movie/img/Studio%20Ghibli%20Movie.png?raw=true',
         figma: 'https://www.figma.com/file/Wit1TMZuRWQVbYGNrZJ4tp/Page-Studio-Ghibli?type=design&node-id=0-1&mode=design&t=3qoi5ejtA5rbcgYF-0',
         github: 'https://github.com/Paivaas/StudioGhibli',
-        site: 'https://paivaas.github.io/StudioGhibli/'
+        site: 'https://paivaas.github.io/StudioGhibli/',
+        concluido: true
     },
     {
         student: 'Luan Oliveira',
@@ -140,7 +144,8 @@ let project = [
         project_image: undefined,
         figma: 'https://www.figma.com/file/K7MKFkRMoGd6I84bSlWryw/Untitled?type=design&node-id=0-1&mode=design&t=dqhrfMiSpYjwfl5w-0',
         github: 'https://github.com/luandso/Azure.FM',
-        site: 'https://luandso.github.io/Azure.FM/'
+        site: 'https://luandso.github.io/Azure.FM/',
+        concluido: false
     },
     {
 	    student: 'Luana Magalhães',
@@ -149,7 +154,8 @@ let project = [
         project_image: undefined,
         figma: 'https://www.figma.com/file/mD8AyI9yMB4NmhlpSnIxmD/InstaMeow?type=design&node-id=0%3A1&mode=dev',
         github: 'https://github.com/lU4N4ht/InstaMeow_ConsumoDeAPI',
-        site: 'https://lu4n4ht.github.io/InstaMeow_ConsumoDeAPI/'
+        site: 'https://lu4n4ht.github.io/InstaMeow_ConsumoDeAPI/',
+        concluido: false
     },
     {
         student: 'Luiz Henrique Vidal Araujo',
@@ -158,7 +164,8 @@ let project = [
         project_image: undefined,
         figma: 'https://www.figma.com/file/DSbuyOpSMHqNwotcBbP1H1/Art-Institute-of-Chicago?type=design&node-id=0-1&mode=design&t=ClaHh1nWb11M1OEY-0',
         github: 'https://github.com/LUIZHVA02/P-W-F-E/tree/main/projetos-Front-End/atividade-SAS',
-        site: 'https://luizhva02.github.io/P-W-F-E/projetos-Front-End/atividade-SAS/index.html'
+        site: 'https://luizhva02.github.io/P-W-F-E/projetos-Front-End/atividade-SAS/index.html',
+        concluido: false
     },
     {
         student: 'Maria Luiza Costa Balieiro',
@@ -167,7 +174,8 @@ let project = [
         project_image: undefined,
         figma: 'https://www.figma.com/file/xo1R0xtQesApLLRqkqVYhd/Untitled?type=design&node-id=0-1&mode=design&t=PINuvpWMAfnLmkIC-0',
         github: 'https://github.com/MariaLuizaBalieiro/taylorsfy',
-        site: 'https://marialuizabalieiro.github.io/taylorsfy/'
+        site: 'https://marialuizabalieiro.github.io/taylorsfy/',
+        concluido: false
     },
     {
         student: 'Mariana Alves',
@@ -176,7 +184,8 @@ let project = [
         project_image: 'https://http2.mlstatic.com/D_NQ_NP_755111-MLB54756518115_032023-O.webp',
         figma: 'https://www.figma.com/file/VYKrNNRiPxCtxYozamTQNB/Filmes?type=design&node-id=0-1&mode=design&t=bAN1H7MZDMPJ0Mv2-0',
         github: 'https://github.com/xoxomyj/frontend-api.git',
-        site: 'https://xoxomyj.github.io/frontend-api/'
+        site: 'https://xoxomyj.github.io/frontend-api/',
+        concluido: false
     },
     {
         student: 'Matheus Zanoni',
@@ -185,7 +194,8 @@ let project = [
         project_image: 'https://user-images.githubusercontent.com/123570240/274327290-23581b49-77be-41ea-8d7a-bf88d205771d.png',
         figma: 'https://www.figma.com/file/GELQawofprZQKRoqP0mNk1/Untitled?type=design&node-id=0-1&mode=design&t=My2yXQzUf2qdip8b-0',
         github: 'https://github.com/Mat3uss/api-anime',
-        site: 'https://mat3uss.github.io/api-anime/'
+        site: 'https://mat3uss.github.io/api-anime/',
+        concluido: false
     },
     {
         student: 'Natália Bastazini',
@@ -194,7 +204,8 @@ let project = [
         project_image: 'https://github.com/natybastazini/bastaziniMusic/assets/123602413/65cc7d10-26bf-47f5-9a09-a17678753fb0',
         figma: 'https://www.figma.com/file/zibI4zwJXIwmcUQBvBBiuJ/Untitled?type=design&node-id=0-1&mode=design&t=TUvBp8Z69lLakGFK-0',
         github: 'https://github.com/natybastazini/bastaziniMusic',
-        site: 'https://natybastazini.github.io/bastaziniMusic/'
+        site: 'https://natybastazini.github.io/bastaziniMusic/',
+        concluido: false
     },
     {
         student: 'Nicolas Vasconcelos Petri',
@@ -204,6 +215,7 @@ let project = [
         figma: 'https://www.figma.com/file/rcjmGwdSWvJyaRbQ7U2svn/Untitled?type=design&node-id=0%3A1&mode=design&t=UhjkWGrcBJOHPiPS-1',
         github: 'https://github.com/nvpetri/ViaMaps',
         site: 'https://nvpetri.github.io/ViaMaps/',
+        concluido: false
     },
     {
         student: 'Nycolle Lima',
@@ -212,7 +224,8 @@ let project = [
         project_image: 'https://github.com/NycolleL/zoo/blob/main/capa.png?raw=true',
         figma: 'https://www.figma.com/file/9sN4aeqzaky7WExHmp1tci/Zoo?type=design&node-id=0-1&mode=design&t=K9kfAMz0GzeT7JPt-0',
         github: 'https://github.com/NycolleL/zoo',
-        site: 'https://nycollel.github.io/zoo/'
+        site: 'https://nycollel.github.io/zoo/',
+        concluido: false
     },
     {
 	    student: 'Pedro Barbosa',
@@ -221,7 +234,8 @@ let project = [
         project_image: 'https://user-images.githubusercontent.com/113317866/274397982-7e68e507-f889-4947-ac13-c4cdab6feb43.png',
         figma: 'https://www.figma.com/file/NRkO0FfzRustL10HxvIav6/Untitled?type=design&node-id=0-1&mode=design&t=WHrHajXU2xMpdhBN-0',
         github: 'https://github.com/pedrohenrqe/Site-API',
-        site: 'https://pedrohenrqe.github.io/Site-API/'
+        site: 'https://pedrohenrqe.github.io/Site-API/',
+        concluido: false
     },  
     {
         student: 'Pedro Pedraga',
@@ -230,7 +244,8 @@ let project = [
         project_image: 'https://user-images.githubusercontent.com/124139371/274326490-6588b3ff-5f3c-4a32-823b-6025f42e2b5d.png',
         figma: 'https://www.figma.com/file/4jy6Z40MDonIr1xktudQM5/Untitled?type=design&node-id=1-3&mode=design&t=zNiInWfG6oija7c5-0',
         github: 'https://github.com/PedrooTz/ClashRoyaleAPI',
-        site: 'https://pedrootz.github.io/ClashRoyaleAPI/'
+        site: 'https://pedrootz.github.io/ClashRoyaleAPI/',
+        concluido: false
     },
     {
         student: 'Ruan Calsolari',
@@ -239,7 +254,18 @@ let project = [
         project_image: undefined,
         figma: 'https://www.figma.com/file/Q7HbWJzMutgnJngWPy6Ud6/Untitled?type=design&node-id=0%3A1&mode=design&t=6vSrZrr3BlRCHqh8-1',
         github: 'https://github.com/Calsolari/Marvel-API',
-        site: 'https://calsolari.github.io/Marvel-API/'
+        site: 'https://calsolari.github.io/Marvel-API/',
+        concluido: false
+    },
+    {
+        student: 'Ryan Alves',
+        class: 'ds1ait-b',
+        project_name: 'Harry Potter Wiki',
+        project_image: 'https://github.com/RyanAlvesz/harry_potter/raw/main/img/hp_wiki.png',
+        figma: 'https://www.figma.com/file/lfhuuXMmv9WVn4yyYs4Uor/Harry-Potter?type=design&node-id=0%3A1&mode=design&t=nPPzwnHYPWPXps39-1',
+        github: 'https://github.com/RyanAlvesz/harry_potter',
+        site: 'https://ryanalvesz.github.io/harry_potter/',
+        concluido: true
     },
     {
         student: 'Tamires Fernandes',
@@ -248,7 +274,8 @@ let project = [
         project_image: undefined,
         figma: 'https://www.figma.com/file/qUInLCadFqj58v4oKwKKtx/Untitled?type=design&node-id=0%3A1&mode=design&t=GiBlRSXGCUVtxebE-1',
         github: 'https://github.com/oRdv/api-studioGhibli.git',
-        site: 'https://ordv.github.io/api-studioGhibli/'
+        site: 'https://ordv.github.io/api-studioGhibli/',
+        concluido: false
     },
     {
         student: 'Vitoria Azevedo',
@@ -257,7 +284,8 @@ let project = [
         project_image: 'https://github-production-user-asset-6210df.s3.amazonaws.com/124360742/276304210-66204685-42b1-4f8e-bdc8-308c157eb72a.png',
         figma: 'https://www.figma.com/file/kIHJAotyykfIgrDhtoFEqs/B%C3%ADblia_Sagrada?type=design&node-id=0-1&mode=design&t=g03sHh4kMQyPsQQ2-0',
         github: 'https://github.com/hanabin28/Biblia_Sagrada',
-        site: '#'
+        site: '#',
+        concluido: false
     },
     {
         student: 'Yasmin Targino',
@@ -266,7 +294,8 @@ let project = [
         project_image: 'https://blog.polipet.com.br/wp-content/uploads/2022/08/AdobeStock_100800827-scaled.jpeg',
         figma: 'https://www.figma.com/file/prxfLRiiOfoNT6oWWYm7nt/Projeto-fatos-sobre-c%C3%A3es?type=design&node-id=0%3A1&mode=design&t=rkKt5XSbwV2U9Kgc-1',
         github: 'https://github.com/Emy0622/atividade_site',
-        site: 'https://emy0622.github.io/atividade_site/'
+        site: 'https://emy0622.github.io/atividade_site/',
+        concluido: false
     }
     
     
@@ -348,6 +377,9 @@ const createProjectCard = (project) => {
         
         const projectInfo = document.createElement('div')
         projectInfo.classList.add('info')
+
+        if(project.concluido == false)
+        projectInfo.style.color = 'var(--light-gray)'
         
         const projectTitle = document.createElement('h2')
         projectTitle.classList.add('project-title')
