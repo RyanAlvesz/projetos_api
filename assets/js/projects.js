@@ -15,7 +15,7 @@ let project = [
         figma: 'https://www.figma.com/file/Tj4GQCKUyr2B88UHl8SeTP/Untitled?type=design&node-id=0-1&mode=design&t=Yiy3r4D8MdBrlAwr-0',
         github: 'https://github.com/analu-a/Projeto-API',
         site: 'https://analu-a.github.io/Projeto-API/',
-        concluido: false
+        concluido: true
     },
     {
         student: 'Bianca Maria Soares',
@@ -95,7 +95,7 @@ let project = [
         figma: 'https://www.figma.com/file/iMfogPphHXsiBqOsrA2vvT/star-wars?type=design&node-id=0-1&mode=design&t=61HgDfC671eoTIYi-0',
         github: 'https://github.com/oghenrique/star-wars-API',
         site: 'https://oghenrique.github.io/star-wars-API/',
-        concluido: false
+        concluido: true
     },
     {
         student: 'Igor Araujo',
@@ -105,7 +105,7 @@ let project = [
         figma: 'https://www.figma.com/file/PZ0m1tMn4G0LedMZWI9Kxa/RickAndMortyAPI?type=design&node-id=0-1&mode=design&t=XVaMnj3UpjMVMovd-0',
         github: 'https://github.com/IgorAraujooo/RickAndMorty-API',
         site: 'https://igoraraujooo.github.io/RickAndMorty-API/',
-        concluido: false
+        concluido: true
     },
     {
         student: 'Jessica Pereira dos Santos',
@@ -215,7 +215,7 @@ let project = [
         figma: 'https://www.figma.com/file/rcjmGwdSWvJyaRbQ7U2svn/Untitled?type=design&node-id=0%3A1&mode=design&t=UhjkWGrcBJOHPiPS-1',
         github: 'https://github.com/nvpetri/ViaMaps',
         site: 'https://nvpetri.github.io/ViaMaps/',
-        concluido: false
+        concluido: true
     },
     {
         student: 'Nycolle Lima',
