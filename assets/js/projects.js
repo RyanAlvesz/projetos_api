@@ -28,6 +28,16 @@ let project = [
         concluido: false
     },
     {
+        student: 'Carlos Eduardo ',
+        class: 'ds1bit-a',
+        project_name: 'Os Simpsons',
+        project_image: undefined,
+        figma: 'https://www.figma.com/file/vw3SwbNidjIvYJQ7WNMvdR/Untitled?type=design&node-id=0-1&mode=design&t=2S9QUBKWi6iZKNPT-0',
+        github: 'https://github.com/c4rl0sfilho/OsSimpsons',
+        site: 'https://c4rl0sfilho.github.io/OsSimpsons/',
+        concluido: false
+    },
+    {
         student: 'Carolina Neponucena',
         class: 'ds1ait-a',
         project_name: 'FruitVyce',
@@ -65,6 +75,16 @@ let project = [
         figma: 'https://www.figma.com/file/LvEfYBd4aOrbtUJRlaQvdZ/Tumblr-Cat?type=design&mode=design&t=kL7x9zOmAZ9mQaDy-0',
         github: 'https://github.com/h4nniton/tumblr-api',
         site: 'https://h4nniton.github.io/tumblr-api/',
+        concluido: false
+    },
+    {
+        student: 'Estela A. Moraes',
+        class: 'ds1bit-a',
+        project_name: '_World Info',
+        project_image: 'https://github.com/estelalm/_WorldCountries/blob/main/landing.png?raw=true',
+        figma: 'https://www.figma.com/file/Fz1zupmfNGBMycAwQNR7eJ/PA%C3%8DSES?type=design&node-id=0-1&mode=design&t=eiEArvdjuUJJozy0-0',
+        github: 'https://github.com/estelalm/countries_world/',
+        site: 'https://estelalm.github.io/countries_world/',
         concluido: false
     },
     {
@@ -208,6 +228,16 @@ let project = [
         concluido: false
     },
     {
+        student: 'Maria Luiza Gomes',
+        class: 'ds1bit-a',
+        project_name: 'Wearecast',
+        project_image: undefined,
+        figma: 'https://www.figma.com/file/cbnF8peVxOFn8oiFNRUXkQ/Weather-API?type=design&node-id=0-1&mode=design&t=BFnjbh55elxr6KLZ-0',
+        github: 'https://github.com/4Mariza/wearecast-api',
+        site: 'https://4mariza.github.io/wearecast-api/ ',
+        concluido: false
+    },
+    {
         student: 'Mariana Alves',
         class: 'ds1ait-b',
         project_name: 'Movies Archive',
@@ -276,7 +306,17 @@ let project = [
         github: 'https://github.com/pedrohenrqe/Site-API',
         site: 'https://pedrohenrqe.github.io/Site-API/',
         concluido: false
-    },  
+    },
+    {
+        student: 'Pedro Henrique Inocente',
+        class: 'ds1bit-a',
+        project_name: 'SUPER-RADAR',
+        project_image: 'https://github.com/1nocente/SUPER-RADAR/blob/main/Imagem%20api.png?raw=true',
+        figma: 'https://www.figma.com/file/brJitVuvLPfKYhGDQOsC0g/Untitled?type=design&node-id=1-2&mode=design&t=1lmozmM6ojZVtxwL-0',
+        github: 'https://github.com/1nocente/SUPER-RADAR',
+        site: 'https://1nocente.github.io/SUPER-RADAR/',
+        concluido: false
+    },
     {
         student: 'Pedro Pedraga',
         class: 'ds1ait-b',
@@ -305,6 +345,16 @@ let project = [
         figma: 'https://www.figma.com/file/Q7HbWJzMutgnJngWPy6Ud6/Untitled?type=design&node-id=0%3A1&mode=design&t=6vSrZrr3BlRCHqh8-1',
         github: 'https://github.com/Calsolari/Marvel-API',
         site: 'https://calsolari.github.io/Marvel-API/',
+        concluido: false
+    },
+    {
+        student: 'Rubens Lobo',
+        class: 'ds1bit-a',
+        project_name: 'API Marvel',
+        project_image: 'https://github.com/rubensl07/Api-Marvel/blob/main/Sem%20t%C3%ADtulo.png?raw=true',
+        figma: 'https://www.figma.com/file/zGvJMW6TZHSCjXPkURQcyh/Untitled?type=design&node-id=0-1&mode=design&t=o3FKT6FibJaMenXB-0',
+        github: 'https://github.com/rubensl07/Api-Marvel',
+        site: '#',
         concluido: false
     },
     {
