@@ -84,7 +84,7 @@ let project = [
         project_image: 'https://github.com/estelalm/_WorldCountries/blob/main/landing.png?raw=true',
         figma: 'https://www.figma.com/file/Fz1zupmfNGBMycAwQNR7eJ/PA%C3%8DSES?type=design&node-id=0-1&mode=design&t=eiEArvdjuUJJozy0-0',
         github: 'https://github.com/estelalm/countries_world/',
-        site: 'https://estelalm.github.io/countries_world/',
+        site: 'https://estelalm.github.io/_WorldCountries/',
         concluido: true
     },
     {
