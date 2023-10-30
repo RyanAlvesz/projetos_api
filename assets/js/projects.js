@@ -108,6 +108,16 @@ let project = [
         concluido: false
     },
     {
+        student: 'Giovanna Silva Belo',
+        class: 'ds1bit-a',
+        project_name: 'My little pony',
+        project_image: 'https://github.com/giovbel/api_my_little_pony/blob/main/layout.png?raw=true',
+        figma: 'https://www.figma.com/file/21li58qClN23tKMUjQadT0/My-little-pony-API?type=design&node-id=0-1&mode=design&t=yDUVhxr6Cvsq9Thb-0',
+        github: 'https://github.com/giovbel/api_my_little_pony',
+        site: 'https://giovbel.github.io/api_my_little_pony/',
+        concluido: false
+    },
+    {
         student: 'Guilherme Abel',
         class: 'ds1ait-a',
         project_name: 'Riot Games API',
@@ -178,6 +188,16 @@ let project = [
         concluido: true
     },
     {
+        student: 'Júlia Pereira Silva',
+        class: 'ds1bit-b',
+        project_name: 'Adote Agora',
+        project_image: 'https://github.com/Juliaps26/adocao/blob/main/adoteagora.png?raw=true',  
+        figma:'https://www.figma.com/file/6Us6zeb24uLhILqTZdthVy/Untitled?type=design&node-id=0-1&mode=design&t=yR0brnG9gKIHwCnC-0',
+        github: 'https://github.com/Juliaps26/adocao',
+        site: 'https://juliaps26.github.io/adocao/',
+        concluido: false
+    },
+    {
         student: 'Kainan Braga',
         class: 'ds1ait-a',
         project_name: '4Seasons',
@@ -185,6 +205,16 @@ let project = [
         figma: 'https://www.figma.com/file/RksUQmefCFAB8rh6QyQVeo/Untitled?type=design&node-id=19-18&mode=design&t=W7pX08phZZjOevRr-0',
         github: 'https://github.com/lucikaii/4seasons',
         site: 'https://lucikaii.github.io/4seasons/',
+        concluido: false
+    },
+    {
+        student: 'Letícia Melo Silva',
+        class: 'ds1bit-a',
+        project_name: 'TouchDown',
+        project_image: 'https://github.com/LeticiaMeloSilv/TouchDown/raw/main/img/homePage.PNG?raw=true',
+        figma: 'https://www.figma.com/file/MTDSYvf6tZkCgcr7yvLPKZ/TouchDown?type=design&node-id=0%3A1&mode=design&t=W0niMtK0OkReC4oq-1',
+        github: 'https://github.com/LeticiaMeloSilv/TouchDown',
+        site: 'https://leticiamelosilv.github.io/TouchDown/',
         concluido: false
     },
     {
@@ -206,6 +236,16 @@ let project = [
         github: 'https://github.com/lU4N4ht/InstaMeow_ConsumoDeAPI',
         site: 'https://lu4n4ht.github.io/InstaMeow_ConsumoDeAPI/',
         concluido: false
+    },
+    {
+        student: 'luis-beckerrrr',
+        class: 'ds1bit-a',
+        project_name: 'Catálogo de filmes',
+        project_image: undefined,
+        figma: 'https://www.figma.com/file/yrHOxfjWApiao5KBAbV0jT/Untitled?type=design&node-id=0-1&mode=design',
+        github: 'https://github.com/beckerrrrrr/filmesAPI',
+        site: 'https://beckerrrrrr.github.io/filmesAPI/',
+        concluido: false,
     },
     {
         student: 'Luiz Henrique Vidal Araujo',
@@ -234,8 +274,8 @@ let project = [
         project_image: undefined,
         figma: 'https://www.figma.com/file/cbnF8peVxOFn8oiFNRUXkQ/Weather-API?type=design&node-id=0-1&mode=design&t=BFnjbh55elxr6KLZ-0',
         github: 'https://github.com/4Mariza/wearecast-api',
-        site: 'https://4mariza.github.io/wearecast-api/ ',
-        concluido: false
+        site: 'https://4mariza.github.io/wearecast-api/',
+        concluido: false    
     },
     {
         student: 'Mariana Alves',
@@ -245,6 +285,16 @@ let project = [
         figma: 'https://www.figma.com/file/VYKrNNRiPxCtxYozamTQNB/Filmes?type=design&node-id=0-1&mode=design&t=bAN1H7MZDMPJ0Mv2-0',
         github: 'https://github.com/xoxomyj/frontend-api.git',
         site: 'https://xoxomyj.github.io/frontend-api/',
+        concluido: false
+    },
+    {
+        student: 'Matheus Noronha da Silva',
+        class: 'ds1bit-a',
+        project_name: 'Yu-Gi-Oh!!',
+        project_image: 'https://github.com/MatheusNoronhadaSilva/API-yu_gi_oh-TERMINADO_RESPONSIVO/blob/main/Yu-gi-oh_imagens.png?raw=true',
+        figma: 'https://www.figma.com/file/WQm4jQA3ehYei3DZy7Qlk9/Untitled?type=design&node-id=0-1&mode=design&t=33lPhFFq03pz2OWL-0',
+        github: 'https://github.com/MatheusNoronhadaSilva/API-yu_gi_oh-TERMINADO_RESPONSIVO',
+        site: 'https://matheusnoronhadasilva.github.io/API-yu_gi_oh-TERMINADO_RESPONSIVO/',
         concluido: false
     },
     {
@@ -311,7 +361,7 @@ let project = [
         student: 'Pedro Henrique Inocente',
         class: 'ds1bit-a',
         project_name: 'SUPER-RADAR',
-        project_image: 'https://github.com/1nocente/SUPER-RADAR/blob/main/Imagem%20api.png?raw=true',
+        project_image: undefined,
         figma: 'https://www.figma.com/file/brJitVuvLPfKYhGDQOsC0g/Untitled?type=design&node-id=1-2&mode=design&t=1lmozmM6ojZVtxwL-0',
         github: 'https://github.com/1nocente/SUPER-RADAR',
         site: 'https://1nocente.github.io/SUPER-RADAR/',
@@ -354,7 +404,7 @@ let project = [
         project_image: 'https://github.com/rubensl07/Api-Marvel/blob/main/Sem%20t%C3%ADtulo.png?raw=true',
         figma: 'https://www.figma.com/file/zGvJMW6TZHSCjXPkURQcyh/Untitled?type=design&node-id=0-1&mode=design&t=o3FKT6FibJaMenXB-0',
         github: 'https://github.com/rubensl07/Api-Marvel',
-        site: '#',
+        site: 'https://rubensl07.github.io/Api-Marvel/',
         concluido: false
     },
     {
@@ -405,6 +455,16 @@ let project = [
         figma: 'https://www.figma.com/file/kIHJAotyykfIgrDhtoFEqs/B%C3%ADblia_Sagrada?type=design&node-id=0-1&mode=design&t=g03sHh4kMQyPsQQ2-0',
         github: 'https://github.com/hanabin28/Biblia_Sagrada',
         site: '#',
+        concluido: false
+    },
+    {
+        student: 'Vitória Cardoso Costa',
+        class: 'ds1bit-a',
+        project_name: 'Frases Motivacionais',
+        project_image: 'https://github.com/vitoriaccardoso/API-FRASES/blob/main/Capturar.PNG?raw=true',
+        figma: 'https://www.figma.com/file/R00NCgwX2QEvo1ysMUrZBi/API?type=design&node-id=1-4&mode=design&t=8z2qbD1EPaKJvSDe-0',
+        github: 'https://github.com/vitoriaccardoso/API-FRASES',
+        site: 'https://vitoriaccardoso.github.io/API-FRASES/',
         concluido: false
     },
     {
