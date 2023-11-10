@@ -271,7 +271,7 @@ let project = [
         student: 'Maria Luiza Gomes',
         class: 'ds1bit-a',
         project_name: 'Wearecast',
-        project_image: undefined,
+        project_image: 'https://user-images.githubusercontent.com/123783356/278750864-e47887c5-9cd9-4dca-bd2f-56a4aad03b31.png',
         figma: 'https://www.figma.com/file/cbnF8peVxOFn8oiFNRUXkQ/Weather-API?type=design&node-id=0-1&mode=design&t=BFnjbh55elxr6KLZ-0',
         github: 'https://github.com/4Mariza/wearecast-api',
         site: 'https://4mariza.github.io/wearecast-api/',
